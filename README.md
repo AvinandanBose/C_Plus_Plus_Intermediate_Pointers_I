@@ -7,5 +7,9 @@ Its an intermediate guide series on C++
 
 <h3><ins>Deferencing operator(*)/Indirection Operator(*)</ins> :→ Deferencing is an operation  performed to access and manipulate data contained in the memory location 'pointed to' by a pointer. The operator '*' is used to deference pointers. </h3>
 <ul>
-  <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/Pointers.cpp"> 1. Pointer</a> </strong></li>
+  <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/Pointers.cpp"> 1. Pointer(Example 1)</a> </strong></li>
+</ul>
+<h3> <ins><i>Note</i></ins> : <i> int *p = &i; similar to operation : *&i </h3>
+<ul>
+  <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/2_Pointers.cpp"> 2. Pointer(Example 2)</a> </strong></li>
 </ul>
