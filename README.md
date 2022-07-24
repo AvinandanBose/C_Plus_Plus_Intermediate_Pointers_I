@@ -1,7 +1,7 @@
 # C_Plus_Plus_Intermediate
 Its an intermediate guide series on C++
 
-<h1> Pointers and Pointer Arithmetic </h1>
+<h1> 1. Pointers and Pointer Arithmetic </h1>
 <h3> A pointer is a entity which cointains a memory address and specified location of computer memory. </h3>
 <h3> Suppose integer i = 10 which has address in the memory location FFFF4 and *p is a pointer which assigned to address of integer i  through & → address operator. Now if we makes output of *p we get 10 i.e *p which contains address of i i.e. FFFF4 points to that address and fetch the value from that address. </h3> 
 
@@ -16,4 +16,37 @@ Its an intermediate guide series on C++
 <h3><i> Similarly,  *ptr is a pointer variable and ptr=&i and *ptr = 20 , then 20 is saved to address of variable i which is possible only because of dereferencing operator. </i></h3>  
 <ul>
   <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/3_Pointers.cpp"> 3. Pointer(Example 3)</a> </strong></li>
+</ul>
+<h3> int *ptr → ptr is a pointer to an integer , char *ptr → ptr is a pointer to a character , double *ptr→ ptr is a pointer to a double ..... etc. </h3>
+<h2> Pointer Variable </h2>
+<h3>int *ptr ; Here int is a data type , * → is dereferencing operator (pointer) and ptr→ is pointer variable.</h3>
+
+```Syntax: 
+<data_type> *<ptrvar_name>
+`````
+<h2>Pointer in function</h2>
+<h3><ins>1. Call By Reference</ins> :- When address of actual parameter is copied to formal parameter(Address used as reference) for execution of the function.</h3>
+<h3><ins>2. Passing Argument By Reference</ins> :- When pass by reference technique is used , the address of the data item is passed to the called function(Call By Reference) i.e. reference address of the actual argument is passed to the formal argument. </h3>
+
+```Syntax: 
+ Function Declaration:
+<return_data_type> function_name (data_type_1 * , data_type_2 * ,......, data_type_n *);
+`````
+
+```Syntax: 
+ Function Definition:
+<return_data_type> function_name (data_type * formal_argument_1,data_type * formal_argument_2,...., data_type * formal_argument_n)
+{
+///Function Body
+}
+`````
+<h3><i><ins>Note:</ins> Each formal argument is a pointer variable. </i></h3>
+
+```Syntax: 
+ Function Call:
+ function_name (&actual_argument_1, &actual_argument_2,...., &actual_argument_n)
+`````
+
+<ul>
+  <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/4_Pointers.cpp"> 4. Pointer{XOR SWAPPING}(Example 4)</a> </strong></li>
 </ul>
