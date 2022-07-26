@@ -107,3 +107,8 @@ i.e. *ptr holds address of variable i and  it fetch the value when it is called.
 </h3>
 
 <h1>Pointers in Recursive Function</h1> 
+<h2>1. Print Number from 1 to range</h2> 
+<ul>
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/Pointer_Recursion_1.cpp"> 1. Pointer in Recursive Function{Print Number from 1 to range(Type 1)}</a> </strong></li>
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/Pointer_Recursion_2.cpp"> 2. Pointer in Recursive Function{Print Number from 1 to range(Type 2)})</a> </strong></li>
+</ul
