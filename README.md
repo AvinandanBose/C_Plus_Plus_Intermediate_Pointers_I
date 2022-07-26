@@ -50,3 +50,60 @@ Its an intermediate guide series on C++
 <ul>
   <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/4_Pointers.cpp"> 4. Pointer{XOR SWAPPING}(Example 4)</a> </strong></li>
 </ul>
+
+<h2>More Examples on Pointers </h2>
+<ul>
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/PointersExamples_1.cpp"> 1. Pointer{Length of Digits}(Example 1)</a> </strong></li>
+ <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/PointersExamples_2.cpp"> 2. Pointer{Sum of Digits}(Example 2)</a> </strong></li>
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/PointersExamples_3.cpp"> 3. Pointer{Reverse Of A  Number}(Example 3)</a> </strong></li>
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/PointersExamples_4.cpp"> 4. Pointer{Palindromic Numbers Upto a Range}(Example 4)→[Pointers in Function]</a> </strong></li>
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/PointersExamples_5.cpp"> 5. Pointer{Palindromic Numbers Upto a Range(Type 2)}(Example 5)→[Pointers in Function]</a> </strong></li>
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/PointersExamples_6.cpp"> 6.Pointer{Prime Numbers Upto A Range}(Example 6)→[Pointers in Function]</a> </strong></li>
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/PointersExamples_7.cpp"> 7.Pointer{Prime Numbers Upto A Range(Type 2)}(Example 7)→[Pointers in Function]</a> </strong></li>
+</ul>
+
+<h3> <ins><i>Note</i></ins> : <i> We have 
+
+```Syntax: 
+ Function Definition:
+ return_type function_name(datatype pointer_variable){
+ //function body
+ }
+`````
+ such as : 
+ ```Syntax: 
+  int lengthOfDigits(int *number){
+  //function body
+  }
+ 
+`````
+Then , in main() function either we call :
+ ```Syntax: 
+ function_name(address_operator variable_name);
+ 
+`````
+Such as:
+ ```Syntax: 
+ lengthOfDigits(&i);
+ 
+`````
+Or
+We assign :
+
+ ```Syntax: 
+ data_type pointer_variable = address_operator variable_name; 
+ function_name(pointer_variable);
+`````
+Such as:
+ ```Syntax: 
+int *ptr = &i;
+lengthOfDigits(ptr);
+`````
+i.e. *ptr holds address of variable i and  it fetch the value when it is called. Note →Both the way, it satisfies function declararion :
+```Syntax: 
+ Function Declaration:
+<return_data_type> function_name (data_type_1 * , data_type_2 * ,......, data_type_n *);
+`````
+</h3>
+
+<h1>Pointers in Recursive Function</h1> 
