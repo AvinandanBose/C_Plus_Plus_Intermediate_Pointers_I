@@ -122,3 +122,8 @@ i.e. *ptr holds address of variable i and  it fetch the value when it is called.
 <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/Pointer_Recursion_5.cpp"> 1. Pointer in Recursive Function{Count of Digits(Type 1)}</a> </strong></li>
 <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/Pointer_Recursion_6.cpp"> 2. Pointer in Recursive Function{Count of Digits(Type 2)}</a> </strong></li>
 </ul>
+<h2>4. Fibonacci Series </h2>
+<ul>
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/Pointer_Recursion_7.cpp"> 1. Pointer in Recursive Function{Fibonacci Series(Type 1)}</a> </strong></li>
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/Pointer_Recursion_8.cpp"> 2. Pointer in Recursive Function{Fibonacci Series(Type 2)}</a> </strong></li>
+</ul>
