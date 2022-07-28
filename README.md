@@ -127,3 +127,10 @@ i.e. *ptr holds address of variable i and  it fetch the value when it is called.
 <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/Pointer_Recursion_7.cpp"> 1. Pointer in Recursive Function{Fibonacci Series(Type 1)}</a> </strong></li>
 <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/Pointer_Recursion_8.cpp"> 2. Pointer in Recursive Function{Fibonacci Series(Type 2)}</a> </strong></li>
 </ul>
+<h2>5. Factorial </h2>
+<ul>
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/Pointer_Recursion_9.cpp"> 1. Pointer in Recursive Function{Factorial Upto A Given Range(Type 1)}</a> </strong></li>
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/Pointer_Recursion_10.cpp"> 2. Pointer in Recursive Function{Factorial Upto A Given Range(Type 2)}</a> </strong></li>
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/Pointer_Recursion_12.cpp"> 3. Pointer in Recursive Function{Factorial Upto A Given Range(Type 3)}</a> </strong></li>
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/Pointer_Recursion_11.cpp"> 4. Pointer in Recursive Function{Factorial Of A Number}</a> </strong></li>
+</ul>
