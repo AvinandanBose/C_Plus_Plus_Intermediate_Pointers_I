@@ -134,3 +134,16 @@ i.e. *ptr holds address of variable i and  it fetch the value when it is called.
 <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/Pointer_Recursion_12.cpp"> 3. Pointer in Recursive Function{Factorial Upto A Given Range(Type 3)}</a> </strong></li>
 <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/Pointer_Recursion_11.cpp"> 4. Pointer in Recursive Function{Factorial Of A Number}</a> </strong></li>
 </ul>
+<h3> <ins><i>Note</i></ins> : <i> (*ptr_var) → Bracket priortize the pointer variable for the operation. Similarly, *ptr_var = &i  and *ptr_var = *ptr_var +1 ; is a valid pointer operation which will fetch the value of the i referencing through the address and will update it adding 1 to the value of variable i i.e. if i =10 then , output will be 11.</h3>
+<h3>Example </h3>
+<ul>
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/example.cpp"> Example of above Note</a> </strong></li>
+</ul>
+<h2>Pointers Action in For Loop (Same logic for other Loops) </h2>
+<ul>
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/ForLoop_Pointers_1.cpp"> 1. Pointer in For Loop (Example 1)</a> </strong></li>
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/Pointer_Recursion_10.cpp"> 2. Pointer in For Loop (Example 2)</a> </strong></li>
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/Pointer_Recursion_12.cpp"> 3. Pointer in For Loop (Example 3)</a> </strong></li>
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/Pointer_Recursion_11.cpp">4.Pointer in For Loop (Example 4)</a> </strong></li>
+</ul>
+
