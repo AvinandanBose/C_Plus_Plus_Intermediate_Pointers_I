@@ -173,4 +173,4 @@ display(&j);
 <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/Pointer_Recursion_11.cpp">4.Pointer in For Loop (Example 4)</a> </strong></li>
 </ul>
 
-<h1>Void Pointers</h1>
+<h2>Void Pointers</h2>
