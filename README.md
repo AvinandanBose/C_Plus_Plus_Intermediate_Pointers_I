@@ -174,3 +174,25 @@ display(&j);
 </ul>
 
 <h2>Void Pointers</h2>
+<h2>1. Operation of Void Pointers at different Data Types </h2>
+<ul>
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/void_pointers_1.cpp"> 1. Operation of Void Pointers at different Data Types (Example 1)</a> </strong></li>
+</ul>
+
+<h2>2.Operation of Void Pointers in Function  </h2>
+<ul>
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/void_pointers_2.cpp"> 2. Operation of Void Pointers in Function(Example 2)</a> </strong></li>
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/void_pointers_3.cpp"> 3. Operation of Void Pointers in Function(Example 3) </a> </strong></li>
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/void_pointers_4.cpp">4.Operation of Void Pointers in Function (Example 4)</a> </strong></li>
+</ul>
+
+<h2>3.Operation of Void Pointers in For Loop  </h2>
+<ul>
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/void_pointers_5.cpp"> 5.Operation of Void Pointers in For Loop (Example 5)</a> </strong></li>
+</ul>
+
+<h2>4.Operation of Void Pointers in Recursion  </h2>
+<ul>
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/void_pointers_6.cpp"> 6. Operation of Void Pointers in Recursion(Example 6)</a> </strong></li>
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/void_pointers_7.cp"> 7. Operation of Void Pointers in Recursion(Example 7) </a> </strong></li>
+</ul>
