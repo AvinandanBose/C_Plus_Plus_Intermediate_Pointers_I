@@ -199,3 +199,31 @@ display(&j);
 <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/void_pointers_9.cpp"> 9. Operation of Void Pointers in Recursion(Example 9) </a> </strong></li>
 <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/void_pointers_10.cpp"> 10. Operation of Void Pointers in Recursion[Fibonacci Series Upto A Range Using Void Pointers](Example 10) </a> </strong></li>
 </ul>
+<h3><i><ins>Note:</ins> Void Pointers uses the reserved word "void" for specifying the type of the pointer.Pointers defined in this manner donot have any type associated with them and can hold any address of any type of variable i.e.  </i></h3>
+
+```Syntax: 
+ int *ptr_var;
+ int var;
+ char var_1;
+ ptr_var  = &var;
+
+But It cannot be:(Invalid)
+
+ptr_var = &var_1; //Invalid
+
+(As ptr_var is int type pointer variable cannot store address address of character variable's address(Conversion Error:
+Cannot convert char* to int *)
+`````
+<h3>But it cannot be with void pointers . We can assign several data_type variable addresses with single void pointer.</h3>
+
+```Syntax: 
+void *vd_ptr;
+int var;
+char var_1;
+vd_var  = &var; //valid
+vd_var = &var_1; //valid
+`````
+
+<h3>Also while output we write : *((data_type *) vptr) , here (data_type *) is typecasted [pointer typecasting ]over void pointer variable to identify which type of datatype output we want , the reason is same : That is <i> Void Pointers uses the reserved word "void" for specifying the type of the pointer </i></h3>
+
+<h1>Pointer Arithmetic </h1>
