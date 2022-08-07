@@ -224,6 +224,6 @@ vd_var  = &var; //valid
 vd_var = &var_1; //valid
 `````
 
-<h3>Also while output we write : *((data_type *) vptr) , here (data_type *) is typecasted [pointer typecasting ]over void pointer variable to identify which type of datatype output we want , the reason is same : That is <i> Void Pointers uses the reserved word "void" for specifying the type of the pointer </i></h3>
+<h3>Also while output we write : *((data_type *) vptr) , here (data_type *) is typecasted [pointer typecasting ]over void pointer variable to identify which type of datatype output we want , the reason is same : That is <i> Void Pointers uses the reserved word "void" for specifying the type of the pointer. </i></h3>
 
 <h1>Pointer Arithmetic </h1>
