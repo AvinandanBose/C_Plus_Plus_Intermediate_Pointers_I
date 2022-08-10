@@ -227,3 +227,9 @@ vd_var = &var_1; //valid
 <h3>Also while output we write : *((data_type *) vptr) , here (data_type *) is typecasted [pointer typecasting ]over void pointer variable to identify which type of datatype output we want , the reason is same : That is <i> Void Pointers uses the reserved word "void" for specifying the type of the pointer. </i></h3>
 
 <h1>Pointer Arithmetic </h1>
+<h3>Pointer Arithmetic is the Arithmetic based on Address hold by Pointer Variable. </h3>
+<h3> Based on Valid Pointer Arithmetic Operation , program given below : </h3>
+<h2>Valid Pointer Arithmetic Operation</h2>
+<ul>
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/PointerArithmetic_1.cpp"> Valid Pointer Arithmetic Operation( Example )</a> </strong></li>
+<ul>
