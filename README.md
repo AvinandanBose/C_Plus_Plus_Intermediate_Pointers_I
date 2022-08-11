@@ -231,5 +231,7 @@ vd_var = &var_1; //valid
 <h3> Based on Valid Pointer Arithmetic Operation , program given below : </h3>
 <h2>Valid Pointer Arithmetic Operation</h2>
 <ul>
-<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/PointerArithmetic_1.cpp"> Valid Pointer Arithmetic Operations with Explanation ( Example )</a> </strong></li>
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/PointerArithmetic_1.cpp"> Valid Pointer Arithmetic Operations with Explanation ( Example )- Integer Pointer</a> </strong></li>
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/PointerArithmetic_2.cpp"> Valid Pointer Arithmetic Operations with Explanation ( Example )- Double Pointer</a> </strong></li>
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/PointerArithmetic_3.cpp"> Valid Pointer Arithmetic Operations with Explanation ( Example )- long Pointer</a> </strong></li>
 <ul>
