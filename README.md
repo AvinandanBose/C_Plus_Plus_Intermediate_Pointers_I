@@ -234,4 +234,8 @@ vd_var = &var_1; //valid
 <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/PointerArithmetic_1.cpp"> Valid Pointer Arithmetic Operations with Explanation ( Example )- Integer Pointer</a> </strong></li>
 <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/PointerArithmetic_2.cpp"> Valid Pointer Arithmetic Operations with Explanation ( Example )- Double Pointer</a> </strong></li>
 <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/PointerArithmetic_3.cpp"> Valid Pointer Arithmetic Operations with Explanation ( Example )- long Pointer</a> </strong></li>
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/PointerArithmetic_4.cpp"> Valid Pointer Arithmetic Operations with Explanation ( Example )- float Pointer</a> </strong></li>
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/PointerArithmetic_6.cpp"> Valid Pointer Arithmetic Operations with Explanation ( Example )- char Pointer</a> </strong></li>
 <ul>
+
+
