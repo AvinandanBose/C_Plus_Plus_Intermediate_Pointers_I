@@ -252,3 +252,4 @@ vd_var = &var_1; //valid
 <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/PointerArithmetic_13.cpp">  Increment and Decrement of Pointer Address with Explanation ( Example )- Char Pointer</a> </strong></li>
 </ul>
 
+<h3><i><ins>Note:</ins> </i></h3>
