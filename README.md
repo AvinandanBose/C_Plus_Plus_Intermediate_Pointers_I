@@ -237,5 +237,9 @@ vd_var = &var_1; //valid
 <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/PointerArithmetic_4.cpp"> Valid Pointer Arithmetic Operations with Explanation ( Example )- float Pointer</a> </strong></li>
 <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/PointerArithmetic_6.cpp"> Valid Pointer Arithmetic Operations with Explanation ( Example )- char Pointer</a> </strong></li>
 <ul>
+<h2>A Multiplication Technique With Pointer (*ptr_var1 ** ptr_var2 => (*ptr_var1) * (*ptr_var2)) </h2>
+<ul>
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/PointerArithmetic_7.cpp"> A Multiplication Technique With Pointer ( Example )</a> </strong></li>
+</ul>
 
 
