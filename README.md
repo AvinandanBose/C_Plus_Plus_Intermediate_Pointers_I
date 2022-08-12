@@ -233,13 +233,22 @@ vd_var = &var_1; //valid
 <ul>
 <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/PointerArithmetic_1.cpp"> Valid Pointer Arithmetic Operations with Explanation ( Example )- Integer Pointer</a> </strong></li>
 <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/PointerArithmetic_2.cpp"> Valid Pointer Arithmetic Operations with Explanation ( Example )- Double Pointer</a> </strong></li>
-<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/PointerArithmetic_3.cpp"> Valid Pointer Arithmetic Operations with Explanation ( Example )- long Pointer</a> </strong></li>
-<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/PointerArithmetic_4.cpp"> Valid Pointer Arithmetic Operations with Explanation ( Example )- float Pointer</a> </strong></li>
-<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/PointerArithmetic_6.cpp"> Valid Pointer Arithmetic Operations with Explanation ( Example )- char Pointer</a> </strong></li>
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/PointerArithmetic_3.cpp"> Valid Pointer Arithmetic Operations with Explanation ( Example )- Long Pointer</a> </strong></li>
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/PointerArithmetic_4.cpp"> Valid Pointer Arithmetic Operations with Explanation ( Example )- Float Pointer</a> </strong></li>
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/PointerArithmetic_5.cpp"> Valid Pointer Arithmetic Operations with Explanation ( Example )- Short Pointer</a> </strong></li>
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/PointerArithmetic_6.cpp"> Valid Pointer Arithmetic Operations with Explanation ( Example )- Char Pointer</a> </strong></li>
 </ul>
 <h2>A Multiplication Technique With Pointer (*ptr_var1 ** ptr_var2 => (*ptr_var1) * (*ptr_var2)) </h2>
 <ul>
 <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/PointerArithmetic_7.cpp"> A Multiplication Technique With Pointer ( Example )</a> </strong></li>
 </ul>
-
+<h2>Increment and Decrement of Pointer Address</h2>
+<ul>
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/PointerArithmetic_8.cpp">Increment and Decrement of Pointer Address with Explanation ( Example )- Integer Pointer</a> </strong></li>
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/PointerArithmetic_9.cpp"> Increment and Decrement of Pointer Address with Explanation ( Example )- Long Pointer</a> </strong></li>
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/PointerArithmetic_10.cpp"> Increment and Decrement of Pointer Address with Explanation ( Example )- Float Pointer</a> </strong></li>
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/PointerArithmetic_11.cpp"> Increment and Decrement of Pointer Address with Explanation ( Example )- Double Pointer</a> </strong></li>
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/PointerArithmetic_12.cpp">  Increment and Decrement of Pointer Address with Explanation ( Example )- Short Pointer</a> </strong></li>
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/PointerArithmetic_13.cpp">  Increment and Decrement of Pointer Address with Explanation ( Example )- Char Pointer</a> </strong></li>
+</ul>
 
