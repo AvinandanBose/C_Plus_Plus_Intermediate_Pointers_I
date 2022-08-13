@@ -253,3 +253,54 @@ vd_var = &var_1; //valid
 </ul>
 
 <h3><i><ins>Note:</ins> </i></h3>
+<table>
+<tr>
+    <th>Data Type</th>
+    <th>Data Size</th>
+    <td colspan="2">Pointer Type</td> 
+</tr>
+<tr>
+  <td colspan="2"></td>
+  <td>near</td>
+  <td>far</td> 
+</tr>
+<tr>
+  <td>char</td>
+  <td>1</td>
+  <td>2</td> 
+  <td>4</td> 
+</tr>
+<tr>
+  <td>short</td>
+  <td>2</td>
+  <td>2</td> 
+  <td>4</td>  
+</tr>
+<tr>
+  <td rowspan="2">int</td>
+  <td>2(16 bit compiler)</td> 
+  <td rowspan="2">2</td>
+  <td rowspan="2">4</td>
+</tr>
+<tr>
+   <td >4(32 bit compiler)</td>
+</tr>
+<tr>
+   <td>long</td>
+  <td>4</td>
+  <td>2</td> 
+  <td>4</td>
+</tr>
+<tr>
+  <td>float</td>
+  <td>4</td>
+  <td>2</td> 
+  <td>4</td>
+</tr>
+<tr>
+  <td>double</td>
+  <td>8</td>
+  <td>2</td> 
+  <td>4</td>
+</tr>
+</table>
