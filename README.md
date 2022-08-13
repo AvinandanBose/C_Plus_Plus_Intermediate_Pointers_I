@@ -307,6 +307,7 @@ vd_var = &var_1; //valid
   
 `````
 Invalid and Illegal Use of Pointers Examples:
+-----------------------------------------------
 int a , b , *p, *q;
 p = -q; //Illegal use of pointers [uniary minus]
 p = p << 1; //Illegal use of pointers [int* to int conversion]
@@ -319,5 +320,6 @@ p = p * a; //Illegal use of Pointer
 p = p / q ; //Illegal use of Pointer
 p = p / b ; //Illegal use of Pointer
 p = a / p ; //Illegal use of Pointer
-  
+
+  --------
 `````
