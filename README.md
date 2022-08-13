@@ -304,3 +304,20 @@ vd_var = &var_1; //valid
   <td>4</td>
 </tr>
 </table>
+  
+`````
+Invalid and Illegal Use of Pointers Examples:
+int a , b , *p, *q;
+p = -q; //Illegal use of pointers [uniary minus]
+p = p << 1; //Illegal use of pointers [int* to int conversion]
+p = p - q ; // Invalid :Nonportable pointer conversion 
+p = p - q - a; // Invalid :Nonportable pointer conversion 
+p = p + a; //Invalid Pointer Addition
+p = p + q;//Invalid Pointer Addition
+p = p * q; // Illegal use of Pointer
+p = p * a; //Illegal use of Pointer
+p = p / q ; //Illegal use of Pointer
+p = p / b ; //Illegal use of Pointer
+p = a / p ; //Illegal use of Pointer
+  
+`````
