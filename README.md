@@ -24,7 +24,7 @@ Its an intermediate guide series on C++
 ```Syntax: 
 <data_type> *<ptrvar_name>
 `````
-<h2>Pointer in function</h2>
+<h2>Pointer in function(Call By Reference)</h2>
 <h3><ins>1. Call By Reference</ins> :- When address of actual parameter is copied to formal parameter(Address used as reference) for execution of the function.</h3>
 <h3><ins>2. Passing Argument By Reference</ins> :- When pass by reference technique is used , the address of the data item is passed to the called function(Call By Reference) i.e. reference address of the actual argument is passed to the formal argument. </h3>
 
