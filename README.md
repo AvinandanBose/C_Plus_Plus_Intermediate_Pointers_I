@@ -324,3 +324,7 @@ p = a / p ; //Illegal use of Pointer
   --------
 `````
 <h1>Pointers to Pointers</h1>
+<h3>Where pointer (*ptr) store the address of a variable say var where data is stored say 10 . Then **ptrptr(Pointers to pointers) store address of that pointer (*ptr)and use it as a reference to fetch data from variable var through (*ptr)</h3>
+<ul>
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/PointerToPointers_1.cpp"> Simple Pointers To Pointer (Example -1)</a> </strong></li>
+</ul>
