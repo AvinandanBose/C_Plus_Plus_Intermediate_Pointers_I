@@ -328,3 +328,12 @@ p = a / p ; //Illegal use of Pointer
 <ul>
 <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/PointerToPointers_1.cpp"> Simple Pointers To Pointer (Example -1)</a> </strong></li>
 </ul>
+<h2>Applying  Pointers to Pointers in Functions</h2>
+<ul>
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/PointerToPointers_2.cpp">Simple Arithmetic Addition Between Two Numbers (Pointers to Pointers in function Example - 1 )</a> </strong></li>
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/PointerToPointers_3.cpp">Reverse of a number (Pointers to Pointers in function Example - 2)</a> </strong></li>
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/PointerToPointers_4.cpp">Length of Digit (Pointers to Pointers in function Example - 4)</a> </strong></li>
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/PointerToPointers_5.cpp">Length of Digit ( Example - 3)</a> </strong></li>
+</ul>
+
+</ul>
