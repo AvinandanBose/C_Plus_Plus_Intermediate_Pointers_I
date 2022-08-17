@@ -359,3 +359,11 @@ p = a / p ; //Illegal use of Pointer
 <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/PointersToPointers_Recursion_7.cpp"> 1. Pointer To Pointers in Recursive Function{Fibonacci Series(Type 1)}</a> </strong></li>
 <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/PointersToPointers_Recursion_8.cpp"> 2. Pointer To Pointers in Recursive Function{Fibonacci Series(Type 2)})</a> </strong></li>
 </ul>
+<h2>5. Factorial</h2> 
+<ul>
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/PointersToPointers_Recursion_9.cpp"> 1. Pointer to Pointers in Recursive Function{Factorial Upto A Given Range(Type 1)}</a> </strong></li>
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/PointersToPointers_Recursion_10.cpp"> 2. Pointer to Pointers in Recursive Function{Factorial Upto A Given Range(Type 2)}</a> </strong></li>
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/PointersToPointers_Recursion_11.cpp"> 3. Pointer to Pointers in Recursive Function{Factorial Upto A Given Range(Type 3)}</a> </strong></li>
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/Pointer_Recursion_12.cpp"> 4. Pointer to Pointers in Recursive Function{Factorial Upto A Given Range(Type 4)}</a> </strong></li>
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/Pointer_Recursion_13.cpp"> 4. Pointer to Pointers in Recursive Function{Factorial Of A Number}</a> </strong></li>
+</ul>
