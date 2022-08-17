@@ -367,3 +367,4 @@ p = a / p ; //Illegal use of Pointer
 <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/Pointer_Recursion_12.cpp"> 4. Pointer to Pointers in Recursive Function{Factorial Upto A Given Range(Type 4)}</a> </strong></li>
 <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/Pointer_Recursion_13.cpp"> 4. Pointer to Pointers in Recursive Function{Factorial Of A Number}</a> </strong></li>
 </ul>
+<h2>Pointers To Pointers Action in For Loop (Same logic for other Loops) </h2>
