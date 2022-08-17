@@ -350,7 +350,7 @@ p = a / p ; //Illegal use of Pointer
 <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/PointersToPointers_Recursion_4.cpp"> 2. Pointer To Pointers in Recursive Function{Sum of numbers(Type 2)})</a> </strong></li>
 </ul>
 <h2>3. Count Of Digits</h2> 
-ul>
+<ul>
 <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/PointersToPointers_Recursion_5.cpp"> 1. Pointer To Pointers in Recursive Function{Count Of Digits(Type 1)}</a> </strong></li>
 <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/PointersToPointers_Recursion_6.cpp"> 2. Pointer To Pointers in Recursive Function{Count Of Digits(Type 2)})</a> </strong></li>
 </ul>
