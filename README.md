@@ -338,4 +338,9 @@ p = a / p ; //Illegal use of Pointer
 <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/PointerToPointers_7.cpp"> Prime Number Upto A Range  (Pointers to Pointers in function Example - 6)</a> </strong></li>
 </ul>
 
+<h2>Pointers To Pointers in Recursive Function</h2> 
+<h2>1. Print Number from 1 to range</h2> 
+<ul>
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/PointersToPointers_Recursion_1.cpp"> 1. Pointer To Pointers in Recursive Function{Print Number from 1 to range(Type 1)}</a> </strong></li>
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/PointersToPointers_Recursion_2.cpp"> 2. Pointer To Pointers in Recursive Function{Print Number from 1 to range(Type 2)})</a> </strong></li>
 </ul>
