@@ -30,7 +30,7 @@ int CountOfDigits(int **n, int **sum){
     ptr_n = &i;
     ptr_sum = &j;
 
-    return CountOfDigits(&ptr_n, &ptr_sum);
+    CountOfDigits(&ptr_n, &ptr_sum);
    
     
 }
