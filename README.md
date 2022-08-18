@@ -444,4 +444,4 @@ p = a / p ; //Illegal use of Pointer
 <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/PointersToPointesrForLoop_4.cpp"> 4. Pointers To Pointers in For Loop (Example 4)</a> </strong></li>
 </ul>
 <h1>Pointers to Functions (ReturnType(*PtrToFn)(arguments_if_any))</h1>
-
+<h3>A pointer to a function can be defined to hold the starting address of a function, and the same can be used to invoke a function. It is possible to pass addresses of different functions at different times thus making the function more flexible and abstract. </h3>
