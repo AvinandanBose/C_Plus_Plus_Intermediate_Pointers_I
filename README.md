@@ -1,4 +1,4 @@
-# C_Plus_Plus_Intermediate
+# C_Plus_Plus_Intermediate_Pointers
 Its an intermediate guide series on C++
 
 <h1> 1. Pointers  </h1>
