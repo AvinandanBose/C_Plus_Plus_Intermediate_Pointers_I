@@ -313,6 +313,10 @@ vd_var = &var_1; //valid
   <td>far</td>
 </tr>
 </table>
+
+<ul>
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/NearAndFarPointersExample.cpp">SEGMENT AND OFFSET ADDRESS OF NEAR AND FAR POINTER (EXAMPLE)</a> </strong></li>
+</ul>
   
 <table>
 <tr>
@@ -365,6 +369,10 @@ vd_var = &var_1; //valid
   <td>4</td>
 </tr>
 </table>
+
+<ul>
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/Pointer_NEARFAR.CPP">NEAR AND FAR SIZES OF DATA TYPES (EXAMPLE)</a> </strong></li>
+</ul>
   
 `````
 Invalid and Illegal Use of Pointers Examples:
