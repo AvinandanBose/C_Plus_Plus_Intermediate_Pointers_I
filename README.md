@@ -371,7 +371,7 @@ vd_var = &var_1; //valid
 </table>
 
 <ul>
-<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/Pointer_NEARFAR.CPP">NEAR AND FAR SIZES OF DATA TYPES (EXAMPLE)</a> </strong></li>
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/Pointer_NEARFAR.CPP">NEAR AND FAR POINTER SIZES OF DATA TYPES (EXAMPLE)</a> </strong></li>
 </ul>
   
 `````
