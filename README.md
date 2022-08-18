@@ -252,7 +252,10 @@ vd_var = &var_1; //valid
 <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/PointerArithmetic_13.cpp">  Increment and Decrement of Pointer Address with Explanation ( Example )- Char Pointer</a> </strong></li>
 </ul>
 
-<h3><i><ins>Note:</ins> </i></h3>
+<h3><i><ins>Note:</ins> </i> The adress of a pointer divided into two parts : <ins>1) Segment</ins> and <ins>2)Offset</ins>. The segment address, located within one of the segment registers, defines the beginning address of any 64K-byte memory segment. The offset address selects any location within the 64K byte memory segment. Segments in the real mode always have a length of 64K bytes.</h3>
+&nbsp
+<h3><i>Hence offset is a small part of the segment . Normally all pointers defines in a program in the small model contain only the offset part of the address. Such pointers are called  <ins>Near Pointers</ins>, which lie within a single segment only. The limitation can be overcomed by use of pointers, which are capable of holding both the segment as well as the offset part of an address. Such pointers are known as <ins>Far Pointers</ins>.</i> </h3>
+
 <table>
 <tr>
     <th>Data Type</th>
