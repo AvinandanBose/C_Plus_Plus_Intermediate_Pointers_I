@@ -445,3 +445,9 @@ p = a / p ; //Illegal use of Pointer
 </ul>
 <h1>Pointers to Functions (ReturnType(*PtrToFn)(arguments_if_any))</h1>
 <h3>A pointer to a function can be defined to hold the starting address of a function, and the same can be used to invoke a function. It is possible to pass addresses of different functions at different times thus making the function more flexible and abstract. </h3>
+<ul>
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/pointerTofunctions_1.cpp"> 1. Pointers to Functions(Example 1)</a> </strong></li>
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/pointerTofunctions_2.cpp"> 2. Pointers to Functions in Recursive Function{Factorial Of A Given Number}</a> </strong></li>
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/pointerTofunctions_3.cpp"> 3. Pointers to Functions in Recursive Function{Factorial Upto A Given Range(Type 1)}</a> </strong></li>
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/pointerTofunctions_4.cpp"> 4. Pointers to Functions in Recursive Function{Factorial Upto A Given Range(Type 2)}</a> </strong></li>
+</ul>
