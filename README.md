@@ -258,6 +258,64 @@ vd_var = &var_1; //valid
 
 <table>
 <tr>
+    <th>Memory model</th>
+    <th colspan="3">Segment</th>
+    <td colspan="2">Pointer Type</td> 
+</tr>
+<tr>
+  <td ></td>
+  <td >Code</td>
+  <td >Data</td>
+  <td>Stack</td>
+  <td>Code</td> 
+  <td>Data</td> 
+</tr>
+<tr>
+  <td>Tiny</td>
+  <td colspan="3" ALIGN=CENTER>64k</td>
+  <td>near</td> 
+  <td>near</td> 
+</tr>
+<tr>
+  <td>Small</td>
+  <td>64k</td>
+  <td colspan="2" ALIGN=CENTER>64k</td> 
+  <td>near</td>  
+  <td>near</td>
+</tr>
+<tr>
+  <td>Medium</td>
+  <td>1MB</td>
+  <td colspan="2" ALIGN=CENTER>64k</td> 
+  <td>far</td>  
+  <td>near</td>
+</tr>
+<tr>
+  <td>Compact</td>
+  <td>64k</td>
+  <td colspan="2" ALIGN=CENTER>1MB</td> 
+  <td>near</td>  
+  <td>far</td>
+</tr>
+<tr>
+  <td>Large</td>
+  <td>1MB</td>
+  <td colspan="2" ALIGN=CENTER>1MB</td> 
+  <td>far</td>  
+  <td>far</td>
+</tr>
+<tr>
+  <td>Huge</td>
+  <td>1MB</td>
+  <td >64k</td>
+  <td >64k</td>
+  <td>far</td>  
+  <td>far</td>
+</tr>
+</table>
+  
+<table>
+<tr>
     <th>Data Type</th>
     <th>Data Size</th>
     <td colspan="2">Pointer Type</td> 
