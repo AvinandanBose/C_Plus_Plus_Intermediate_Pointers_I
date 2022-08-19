@@ -472,3 +472,9 @@ PtrToFn(arguments_if_any)
 </ul>
 <h1>Recursive Call To Main() Function </h1>
 <h3>main()→cannot be  invoked recursively,  cannot be overloaded,  cannot be declared inline,  cannot be declared static in C++. But  if we assign the address of main() to any <ins>Pointer To Function</ins> having same return type of main() then invoking the <ins>Pointer To Function</ins> , main() function can be called <ins>Recursively</ins>, violating the first rule.</h3>
+<ul>
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_Pointers_I/blob/main/RecursiveCallToMain.cpp"> Recursive Call to Main() Function(Example)</a> </strong></li>
+
+<h3>The above example generates output indefinite number of times , till the stack gets overflowed. </h3>
+</ul>
+
