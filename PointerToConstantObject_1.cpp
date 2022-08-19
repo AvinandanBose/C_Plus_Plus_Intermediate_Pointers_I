@@ -4,9 +4,28 @@ int main()
 {
     const float *ptrpi;
     float pi = 3.14f;
+
     float area = 0.14f; 
     ptrpi = &pi;
+    
     cout<<"pi="<<*ptrpi<<endl;
+
+    //Can assign to another address of any object
+    ptrpi = &area;
+    cout<<"Value of area: "<<*ptrpi<<endl;
+    cout<<"Value of area: "<<area<<endl;
+    
+    //Pointer Arithmetic is Possible
+    cout<<"Integer Address of ptrpi "<<(int)ptrpi<<endl;
+    cout<<"Corressponding Hex Address of ptrpi "<<ptrpi<<endl;
+    ptrpi = ptrpi+1;
+    cout<<"Integer Address of ptrpi after Arithmetic Operation:"<<(int)ptrpi<<endl;
+    cout<<"Corressponding Hex Address of ptrpi after Arithmetic Operation:"<<ptrpi<<endl;
+    
+    //Can't change the value of constant object
+    //*ptrpi = 10.14f; (is not allowed)
+
+
 
 
     //Similarly 
