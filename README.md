@@ -479,7 +479,7 @@ PtrToFn(arguments_if_any)
 </ul>
 
 <h1>Pointer to Constant Object</h1>
-<h3>It indicates Pointer to constant integer , Pointer to constant character etc.</h3>
+<h3>It indicates Pointer to constant integer , Pointer to constant character etc. That is we cannot  manipulate the assigned <dataType> variable's value by referencing the variable's address through the pointer variable as referencing is constant.</h3>
   
 ```Syntax: 
 Syntax: const <dataType>* <var>; 
@@ -487,6 +487,19 @@ Syntax: const <dataType>* <var>;
   is same as : 
 
 <dataType> const * <var>
+  
+Such as:
+const float *ptrpi;
+float pi = 3.14f;
+float area = 0.14f; 
+ptrpi = &pi; //Allowed
+ptrpi = &area; //Allowed
+ptrpi = ptrpi+1;// i.e. Pointer Arithmetic is Allowed
+*ptrpi = 10.15 ; // Trying to change value using address as a reference is not allowed.
+
+Similarly,
+const float *ptrpi; is same as float const *ptrpi;
+
 `````
 <ul>
 <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_Pointers_I/blob/main/PointerToConstantObject_1.cpp"> Pointer to Constant Object(Example 1)</a> </strong></li>
