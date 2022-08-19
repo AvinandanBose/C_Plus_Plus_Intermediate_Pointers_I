@@ -448,6 +448,12 @@ p = a / p ; //Illegal use of Pointer
 
 ```Syntax: 
 ReturnType(*PtrToFn)(arguments_if_any)
+
+Invoking a Function using Pointers:
+----------------------------------
+(*PtrToFn)(arguments_if_any)
+or
+PtrToFn(arguments_if_any)
 `````
 <ul>
 <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/pointerTofunctions_1.cpp"> 1. Pointers to Functions(Example 1)</a> </strong></li>
@@ -464,3 +470,5 @@ ReturnType(*PtrToFn)(arguments_if_any)
 <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_Pointers_I/blob/main/PassingFunctionAddress_4.cpp"> 4. Passing Function Address{Using Pointers To Pointers(Example 4)}</a> </strong></li>
 <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_Pointers_I/blob/main/PassingFunctionAddress_5.cpp"> 5. Passing Function Address{Using Recursive Function(Example 5)}</a> </strong></li>
 </ul>
+<h1>Recursive Call To Main() Function </h1>
+<h3>main()→cannot be  invoked recursively,  cannot be overloaded,  cannot be declared inline,  cannot be declared static in C++. But  if we assign the address of main() to any <ins>Pointer To Function</ins> having same return type of main() then invoking the <ins>Pointer To Function</ins> , main() function cam be called <ins>Recursively</ins></h3>
