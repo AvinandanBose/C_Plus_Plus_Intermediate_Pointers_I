@@ -455,3 +455,5 @@ ReturnType(*PtrToFn)(arguments_if_any)
 <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/pointerTofunctions_3.cpp"> 3. Pointers to Functions in Recursive Function{Factorial Upto A Given Range(Type 1)}</a> </strong></li>
 <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/pointerTofunctions_4.cpp"> 4. Pointers to Functions in Recursive Function{Factorial Upto A Given Range(Type 2)}</a> </strong></li>
 </ul>
+<h1>Passing Function Address</h1>
+<h3>The address of a function can be passed as an argument to a functions, either by a function name or a pointer holding the address of a function. </h3>
