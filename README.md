@@ -493,6 +493,7 @@ Syntax: const <dataType>* <var>;
 <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_Pointers_I/blob/main/PointerToConstantObject_2.cpp"> Pointer to Constant Object(Example 2)</a> </strong></li>
 </ul>
 <h1>Constant Pointers </h1>
+<h3> Constant Pointers tells its assigned address is fixed and constant . </h3>
 
 ```Syntax: 
 Syntax:  <dataType>* const <var>; → Constant Pointer To A <dataType>
@@ -500,12 +501,23 @@ Syntax:  <dataType>* const <var>; → Constant Pointer To A <dataType>
 Such as : - int * const pi ; → Constant Pointer To An Integer(Which is not Constant).
 
 Hence we can change values like :
-
+  
+int * const pi;
 int i = 10;
-*pi = &i;
+int j = 20;
+pi = &i;
 *pi = 30;
 *pi = 40;
 Output will be 40.
+But if we assign another address to the pointer i.e. 
+  
+pi = &j;
+
+, it will refuse and generate error as it(pointer) is constant 
+i.e. it's assigned address is fixed and constant.
+  
+ 
+  
 
 
 Syntax: <dataType>* const <var>; 
@@ -516,4 +528,6 @@ Here we cannot change values as <dataType> is constant.
 int i = 10;
 *pi = &i;
 Then *pi = 20 is not possible. It Output 10 only.
+pi = &j; → It refuses again and generate error,
+As it's assigned address is fixed and constant(Constant Pointer) .
 `````
