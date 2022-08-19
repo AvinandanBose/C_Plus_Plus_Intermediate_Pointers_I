@@ -492,3 +492,28 @@ Syntax: const <dataType>* <var>;
 <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_Pointers_I/blob/main/PointerToConstantObject_1.cpp"> Pointer to Constant Object(Example 1)</a> </strong></li>
 <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_Pointers_I/blob/main/PointerToConstantObject_2.cpp"> Pointer to Constant Object(Example 2)</a> </strong></li>
 </ul>
+<h1>Constant Pointers </h1>
+
+```Syntax: 
+Syntax:  <dataType>* const <var>; → Constant Pointer To A <dataType>
+
+Such as : - int * const pi ; → Constant Pointer To An Integer(Which is not Constant).
+
+Hence we can change values like :
+
+int i = 10;
+*pi = &i;
+*pi = 30;
+*pi = 40;
+Output will be 40.
+
+
+Syntax: <dataType>* const <var>; 
+
+const <dataType> const * <var>;  → Constant Pointer To A Constant <dataType>
+
+Here we cannot change values as <dataType> is constant.
+int i = 10;
+*pi = &i;
+Then *pi = 20 is not possible. It Output 10 only.
+`````
