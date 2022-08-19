@@ -488,3 +488,7 @@ Syntax: const <dataType>* <var>;
 
 <dataType> const * <var>
 `````
+<ul>
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_Pointers_I/blob/main/PointerToConstantObject_1.cpp"> Pointer to Constant Object(Example 1)</a> </strong></li>
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_Pointers_I/blob/main/PointerToConstantObject_2.cpp"> Pointer to Constant Object(Example 2)</a> </strong></li>
+</ul>
