@@ -478,3 +478,5 @@ PtrToFn(arguments_if_any)
 <h3>The above example generates output indefinite number of times , till the stack gets overflowed. </h3>
 </ul>
 
+<h1>Pointer to Constant Object</h1>
+<h3>It indicates Pointer to constant integer , Pointer to constant character etc.</h3>
