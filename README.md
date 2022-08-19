@@ -471,4 +471,4 @@ PtrToFn(arguments_if_any)
 <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_Pointers_I/blob/main/PassingFunctionAddress_5.cpp"> 5. Passing Function Address{Using Recursive Function(Example 5)}</a> </strong></li>
 </ul>
 <h1>Recursive Call To Main() Function </h1>
-<h3>main()→cannot be  invoked recursively,  cannot be overloaded,  cannot be declared inline,  cannot be declared static in C++. But  if we assign the address of main() to any <ins>Pointer To Function</ins> having same return type of main() then invoking the <ins>Pointer To Function</ins> , main() function cam be called <ins>Recursively</ins>, violating the first rule.</h3>
+<h3>main()→cannot be  invoked recursively,  cannot be overloaded,  cannot be declared inline,  cannot be declared static in C++. But  if we assign the address of main() to any <ins>Pointer To Function</ins> having same return type of main() then invoking the <ins>Pointer To Function</ins> , main() function can be called <ins>Recursively</ins>, violating the first rule.</h3>
