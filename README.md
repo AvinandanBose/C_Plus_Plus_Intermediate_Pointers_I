@@ -563,7 +563,7 @@ pi = pi + 1; →It refuses again and generate error, as  Arithmetic Operation on
 <img src="https://user-images.githubusercontent.com/38869235/185734795-5a8204ef-0ff3-4be1-94d6-2e631a5a3ca4.png">
 <img src="https://user-images.githubusercontent.com/38869235/185734849-c97e7d83-681e-4b40-a399-6a1872659802.png">
 <h3>And Similar type of operations is possible in Pointers to Pointers.</h3> 
-<h3> We can understand it with few simple examples as given below : </h3> 
+<h3> Understanding it with 2 examples as given below : </h3> 
 <ul>
 <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_Pointers_I/blob/main/ExampleRelatedToPointers_FunctionCallAndRecursion.cpp"> Example 1 To Above Note (Pointers,Function,Function Call, Recursion)</a> </strong></li>
 <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_Pointers_I/blob/main/ExampleRelatedToPointerToPointer_FunctionCallAndRecursion.cpp"> Example 2 To Above Note (Pointers To Pointers,Function,Function Call, Recursion)</a> </strong></li>
