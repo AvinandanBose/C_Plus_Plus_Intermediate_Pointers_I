@@ -479,7 +479,7 @@ PtrToFn(arguments_if_any)
 </ul>
 
 <h1>Pointer to Constant Object</h1>
-<h3>It indicates Pointer to constant integer , Pointer to constant character etc. That is we cannot  manipulate the assigned <dataType> variable's value by referencing the variable's address through the pointer variable as referencing is constant.</h3>
+<h3>It indicates  Pointer to constant object which store address of  integer variable , Pointer to constant object which store address of  character variable etc. That is we cannot  manipulate the assigned <dataType> variable's value by referencing the variable's address through the pointer variable as referencing Object is constant.</h3>
   
 ```Syntax: 
 Syntax: const <dataType>* <var>; 
@@ -495,7 +495,7 @@ float area = 0.14f;
 ptrpi = &pi; //Allowed
 ptrpi = &area; //Allowed
 ptrpi = ptrpi+1;// i.e. Pointer Arithmetic is Allowed
-*ptrpi = 10.15 ; // Trying to change value using address as a reference is not allowed.
+*ptrpi = 10.15 ; // Trying to change value using address as a reference is not allowed as Object (ptrpi) is constant.
 
 Similarly,
 const float *ptrpi; is same as float const *ptrpi;
@@ -509,9 +509,9 @@ const float *ptrpi; is same as float const *ptrpi;
 <h3> Constant Pointers tells its assigned address is fixed and constant . </h3>
 
 ```Syntax: 
-Syntax:  <dataType>* const <var>; → Constant Pointer To A <dataType>
+Syntax:  <dataType>* const <var>; → Constant Pointer To An Object which store address of a <dataType> Variable.
 
-Such as : - int * const pi ; → Constant Pointer To An Integer(Which is not Constant).
+Such as : - int * const pi ; → Constant Pointer To An Object which store address of Integer Variable(Stored Address is Constant) but Object(pi) is not Constant.
 
 Hence we can change values like :
   
@@ -536,17 +536,20 @@ pi= pi+1 ; // Arithmetic Operation on Pointer Address is not Allowed and Possibl
   
 
 
-Syntax: const <dataType> const * <var>;  → Constant Pointer To A Constant <dataType> 
+Syntax: const <dataType> const * <var>;  → Constant Pointer To A Constant Object.
 
-Here we cannot change values as <dataType> is constant.
+
+
+Here we cannot change values as Object is constant .
 
 Such as :
 
-const int* const pi;
+const int* const pi;→ Constant Pointer To An Object(pi) which store address of Integer Variable(Stored Address is Constant) and the Object(pi) is also Constant.
+
 int i = 10;
 *pi = &i;
-Then *pi = 20 is not possible. It Output 10 only, as Value to <dataType>Variable is fixed and Constant.
+Then *pi = 20 is not possible. It Output 10 only, as pointers to const cannot be used to change the value of variable as Object (pi) is constant.
 pi = &j; → It refuses again(not possible) and generate error, as Address assigned at first to Pointer Variable is fixed and Constant.
 pi = pi + 1; →It refuses again and generate error, as  Arithmetic Operation on Pointer Address is not Allowed and Possible here as Address is Fixed and Constant.
-As it's assigned address is fixed and constant(Constant Pointer) also value assigned to <dataType>Variable is fixed and constant.
+
 `````
