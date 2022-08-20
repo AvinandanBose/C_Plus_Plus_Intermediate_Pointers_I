@@ -6,6 +6,7 @@ Its an intermediate guide series on C++
 <h3> Suppose integer i = 10 which has address in the memory location FFFF4 and *p is a pointer which assigned to address of integer i  through & → address operator. Now if we makes output of *p we get 10 i.e *p which contains address of i i.e. FFFF4 points to that address and fetch the value from that address. </h3> 
 
 <h3><ins>Dereferencing operator(*)/Indirection Operator(*)</ins> :→ Dereferencing is an operation  performed to access and manipulate data contained in the memory location 'pointed to' by a pointer. The operator '*' is used to deference pointers. </h3>
+<img src="https://user-images.githubusercontent.com/38869235/185744259-3dba41c1-7c5e-41fc-93b8-8ae2c0686123.png">
 <ul>
   <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/1_Pointers.cpp"> 1. Pointer(Example 1)</a> </strong></li>
 </ul>
@@ -394,6 +395,7 @@ p = a / p ; //Illegal use of Pointer
 `````
 <h1>Pointers to Pointers</h1>
 <h3>Where pointer (*ptr) store the address of a variable say var where data is stored say 10 . Then **ptrptr(Pointers to pointers) store address of that pointer (*ptr)and use it as a reference to fetch data from variable var through (*ptr).</h3>
+<img src="https://user-images.githubusercontent.com/38869235/185744441-218882dd-ae12-4c4e-b729-c3aadb2a761e.jpg">
 <ul>
 <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/PointerToPointers_1.cpp"> Simple Pointers To Pointer (Example -1)</a> </strong></li>
 </ul>
