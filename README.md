@@ -543,7 +543,8 @@ const <dataType> const * <var>;  → Constant Pointer To A Constant <dataType>
 Here we cannot change values as <dataType> is constant.
 int i = 10;
 *pi = &i;
-Then *pi = 20 is not possible. It Output 10 only.
-pi = &j; → It refuses again and generate error,
+Then *pi = 20 is not possible. It Output 10 only, as Value to <dataType>Variable is fixed and Constant.
+pi = &j; → It refuses again and generate error, as Address assigned at first to Pointer Variable is fixed and Constant.
+pi = pi + 1; →It refuses again and generate error, as  Arithmetic Operation on Pointer Address is not Allowed and Possible here as Address is Fixed and Constant.
 As it's assigned address is fixed and constant(Constant Pointer) .
 `````
