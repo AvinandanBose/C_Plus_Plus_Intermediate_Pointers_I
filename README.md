@@ -555,3 +555,6 @@ pi = pi + 1; →It refuses again and generate error, as  Arithmetic Operation on
   Stored Address under Pointer Variable(Which is a constant object) is Fixed and Constant.
 
 `````
+<ul>
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_Pointers_I/blob/main/ConstantPointers_1.cpp"> Constant Pointer(Example)</a> </strong></li>
+</ul>
