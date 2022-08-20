@@ -536,11 +536,13 @@ pi= pi+1 ; // Arithmetic Operation on Pointer Address is not Allowed and Possibl
   
 
 
-Syntax: <dataType>* const <var>; 
-
-const <dataType> const * <var>;  → Constant Pointer To A Constant <dataType>
+Syntax: const <dataType> const * <var>;  → Constant Pointer To A Constant <dataType> 
 
 Here we cannot change values as <dataType> is constant.
+
+Such as :
+
+const int* const pi;
 int i = 10;
 *pi = &i;
 Then *pi = 20 is not possible. It Output 10 only, as Value to <dataType>Variable is fixed and Constant.
