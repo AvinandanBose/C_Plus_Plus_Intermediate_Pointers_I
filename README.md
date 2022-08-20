@@ -551,6 +551,7 @@ int i = 10;
 *pi = &i;
 Then *pi = 20 is not possible. It Output 10 only, as pointers to const cannot be used to change the value of variable as Object (pi) is constant.
 pi = &j; → It refuses again(not possible) and generate error, as Address assigned at first to Pointer Variable is fixed and Constant.
-pi = pi + 1; →It refuses again and generate error, as  Arithmetic Operation on Pointer Address is not Allowed and Possible here as Address is Fixed and Constant.
+pi = pi + 1; →It refuses again and generate error, as  Arithmetic Operation on Pointer Address is not Allowed and Possible here as 
+  Stored Address under Pointer Variable(Which is a constant object) is Fixed and Constant.
 
 `````
