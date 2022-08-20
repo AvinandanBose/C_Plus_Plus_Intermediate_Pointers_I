@@ -511,7 +511,8 @@ const float *ptrpi; is same as float const *ptrpi;
 ```Syntax: 
 Syntax:  <dataType>* const <var>; → Constant Pointer To An Object which store address of a <dataType> Variable.
 
-Such as : - int * const pi ; → Constant Pointer To An Object which store address of Integer Variable(Stored Address is Constant) but Object(pi) is not Constant.
+Such as : - int * const pi ; → Constant Pointer To An Object which store address of Integer Variable(Stored Address is Constant) 
+but Object(pi) is not Constant.
 
 Hence we can change values like :
   
