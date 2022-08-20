@@ -528,7 +528,10 @@ pi = &j;
 
 , it will refuse and generate error as it(pointer) is constant 
 i.e. it's assigned address is fixed and constant.
-  
+
+Also, 
+pi= pi+1 ; // Arithmetic Operation on Pointer Address is not Allowed and Possible here as Address is Fixed and Constant
+,hence it will again refuse and generate error. 
  
   
 
