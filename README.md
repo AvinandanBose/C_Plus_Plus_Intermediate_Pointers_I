@@ -558,3 +558,16 @@ pi = pi + 1; →It refuses again and generate error, as  Arithmetic Operation on
 <ul>
 <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_Pointers_I/blob/main/ConstantPointers_1.cpp"> Constant Pointer(Example)</a> </strong></li>
 </ul>
+<h3><i><ins>Note:</ins> During Recursion , we have seen similar type of operations as depicted to the pictures below:</h3>
+<img src="https://user-images.githubusercontent.com/38869235/185734715-3ee1862d-d03b-41ef-8c40-2e8b3f7ac938.png">
+<img src="https://user-images.githubusercontent.com/38869235/185734795-5a8204ef-0ff3-4be1-94d6-2e631a5a3ca4.png">
+<img src="https://user-images.githubusercontent.com/38869235/185734849-c97e7d83-681e-4b40-a399-6a1872659802.png">
+<h3>And Similar type of operations is possible in Pointers to Pointers.</h3> 
+<h3> We can understand it with few simple examples as given below : </h3> 
+<ul>
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_Pointers_I/blob/main/ExampleRelatedToPointers_FunctionCallAndRecursion.cpp"> Example 1 To Above Note (Pointers,Function,Function Call, Recursion)</a> </strong></li>
+<li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate_Pointers_I/blob/main/ExampleRelatedToPointerToPointer_FunctionCallAndRecursion.cpp"> Example 2 To Above Note (Pointers To Pointers,Function,Function Call, Recursion)</a> </strong></li>
+</ul>
+
+
+
