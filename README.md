@@ -375,7 +375,7 @@ vd_var = &var_1; //valid
 <li> <strong> <a href="https://github.com/AvinandanBose/C_Plus_Plus_Intermediate/blob/main/Pointer_NEARFAR.CPP">NEAR AND FAR POINTER SIZES OF DATA TYPES (EXAMPLE)</a> </strong></li>
 </ul>
   
-`````
+`````Syntax
 Invalid and Illegal Use of Pointers Examples:
 -----------------------------------------------
 int a , b , *p, *q;
