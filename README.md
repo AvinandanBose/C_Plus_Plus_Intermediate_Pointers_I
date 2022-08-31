@@ -22,19 +22,19 @@ Its an intermediate guide series on C++
 <h2> Pointer Variable </h2>
 <h3>int *ptr ; Here int is a data type , * → is dereferencing operator (pointer) and ptr→ is pointer variable.</h3>
 
-```Syntax: 
+```Syntax 
 <data_type> *<ptrvar_name>
 `````
 <h2>Pointer in function(Call By Reference)</h2>
 <h3><ins>1. Call By Reference</ins> :- When address of actual parameter is copied to formal parameter(Address used as reference) for execution of the function.</h3>
 <h3><ins>2. Passing Argument By Reference</ins> :- When pass by reference technique is used , the address of the data item is passed to the called function(Call By Reference) i.e. reference address of the actual argument is passed to the formal argument. </h3>
 
-```Syntax: 
+```Syntax 
  Function Declaration:
 <return_data_type> function_name (data_type_1 * , data_type_2 * ,......, data_type_n *);
 `````
 
-```Syntax: 
+```Syntax 
  Function Definition:
 <return_data_type> function_name (data_type * formal_argument_1,data_type * formal_argument_2,...., data_type * formal_argument_n)
 {
@@ -43,7 +43,7 @@ Its an intermediate guide series on C++
 `````
 <h3><i><ins>Note:</ins> Each formal argument is a pointer variable. </i></h3>
 
-```Syntax: 
+```Syntax 
  Function Call:
  function_name (&actual_argument_1, &actual_argument_2,...., &actual_argument_n)
 `````
@@ -65,14 +65,14 @@ Its an intermediate guide series on C++
 
 <h3> <ins><i>Note</i></ins> : <i> We have 
 
-```Syntax: 
+```Syntax 
  Function Definition:
  return_type function_name(datatype pointer_variable){
  //function body
  }
 `````
  such as : 
- ```Syntax: 
+ ```Syntax 
   int lengthOfDigits(int *number){
   //function body
   }
@@ -84,24 +84,24 @@ Then , in main() function either we call :
  
 `````
 Such as:
- ```Syntax: 
+ ```Syntax 
  lengthOfDigits(&i);
  
 `````
 Or
 We assign :
 
- ```Syntax: 
+ ```Syntax 
  data_type pointer_variable = address_operator variable_name; 
  function_name(pointer_variable);
 `````
 Such as:
- ```Syntax: 
+ ```Syntax 
 int *ptr = &i;
 lengthOfDigits(ptr);
 `````
 i.e. *ptr holds address of variable i and  it fetch the value when it is called. Note →Both the way, it satisfies function declararion :
-```Syntax: 
+```Syntax 
  Function Declaration:
 <return_data_type> function_name (data_type_1 * , data_type_2 * ,......, data_type_n *);
 `````
@@ -144,7 +144,7 @@ i.e. *ptr holds address of variable i and  it fetch the value when it is called.
 
 <h3><ins><i>Note 2</i></ins> :Also in recursion when :</h3>
 
-```Syntax: 
+```Syntax 
  Recursion:
 <return_data_type> function_name (data_type *ptr_var){
 data_type var = *ptr_var;
@@ -202,7 +202,7 @@ display(&j);
 </ul>
 <h3><i><ins>Note:</ins> Void Pointers uses the reserved word "void" for specifying the type of the pointer.Pointers defined in this manner donot have any type associated with them and can hold any address of any type of variable i.e.  </i></h3>
 
-```Syntax: 
+```Syntax 
  int *ptr_var;
  int var;
  char var_1;
@@ -217,7 +217,7 @@ Cannot convert char* to int *)
 `````
 <h3>But it cannot be with void pointers . We can assign several data_type variable addresses with single void pointer.</h3>
 
-```Syntax: 
+```Syntax 
 void *vd_ptr;
 int var;
 char var_1;
@@ -448,7 +448,7 @@ p = a / p ; //Illegal use of Pointer
 <h1>Pointers to Functions </h1>
 <h3>A pointer to a function can be defined to hold the starting address of a function, and the same can be used to invoke a function. It is possible to pass addresses of different functions at different times thus making the function more flexible and abstract. </h3>
 
-```Syntax: 
+```Syntax 
 ReturnType(*PtrToFn)(arguments_if_any)
 
 Invoking a Function using Pointers:
@@ -483,7 +483,7 @@ PtrToFn(arguments_if_any)
 <h1>Pointer to Constant Object</h1>
 <h3>It indicates  Pointer to constant object which store address of  integer variable , Pointer to constant object which store address of  character variable etc. That is we cannot  manipulate the assigned <dataType> variable's value by referencing the variable's address through the pointer variable as referencing Object is constant.</h3>
   
-```Syntax: 
+```Syntax 
 Syntax: const <dataType>* <var>; 
 
   is same as : 
@@ -510,7 +510,7 @@ const float *ptrpi; is same as float const *ptrpi;
 <h1>Constant Pointers </h1>
 <h3> Constant Pointers tells its assigned address is fixed and constant . </h3>
 
-```Syntax: 
+```Syntax 
 Syntax:  <dataType>* const <var>; → Constant Pointer To An Object which store address of a <dataType> Variable.
 
 Such as : - int * const pi ; → Constant Pointer To An Object which store address of Integer Variable(Stored Address is Constant) 
